@@ -1,0 +1,67 @@
+[
+  {
+    "category": "objection",
+    "input_pattern": "too expensive",
+    "optimized_response": "I completely understand that budget is important. That's why we offer $0 upfront and just $150 flat for a full 3-Month Hosting & Setup Bundle (https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04)—or $300 for 6 months (https://buy.stripe.com/aFa8wOaE5fxJ7o0eWLdQQ05). It's designed to pay for itself with your very first lead. We focus on getting you real calls, not just a static page."
+  },
+  {
+    "category": "objection",
+    "input_pattern": "who are you",
+    "optimized_response": "I'm Sam, the Client Success Specialist at DualLeadGen AI. We help local service businesses and real estate pros capture more leads with automated, high-end landing pages and self-healing technical support."
+  },
+  {
+    "category": "objection",
+    "input_pattern": "not interested",
+    "optimized_response": "OPT_OUT"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "unsubscribe",
+    "optimized_response": "OPT_OUT"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "how do I pay",
+    "optimized_response": "You can get started by choosing your setup and hosting bundle: 3 Months for $150 (https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04) or 6 Months for $300 (https://buy.stripe.com/aFa8wOaE5fxJ7o0eWLdQQ05). Once your payment completes, we'll launch your custom lead capture funnel immediately!"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "tell me more",
+    "optimized_response": "Great! DualLeadGen AI creates a fully optimized lead capture funnel for your business. We set everything up: a custom responsive landing page, mobile optimization, lead capture forms, and Google Business Profile syncing. It is just $150 flat for a 3-Month Hosting & Setup Bundle. It typically pays for itself with your very first customer. Ready to get started? https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "how does it work",
+    "optimized_response": "It's simple: 1) We audit your digital presence, 2) We build a custom, mobile-optimized lead capture landing page matching our premium Base 44 agency standard, 3) We integrate your local profiles, and 4) You start receiving qualified leads. It is just $150 for a full 3-Month Setup & Hosting Bundle. You can get started here: https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "can I customize it",
+    "optimized_response": "Absolutely! Your funnel is fully tailored to your business — including custom bios, brand colors, and industry-specific services. Our AI tech support team pushes text and image updates live in minutes whenever you request them. Get started with our 3-Month Hosting Bundle here: https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "scam",
+    "optimized_response": "I completely understand your caution! We are a verified service with real, live local businesses using our landing pages. There are no surprise fees, clear transparent pricing at just $150 flat for 3 full months of hosting, and zero long-term commitments. Here is our secure Stripe checkout link: https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "not now",
+    "optimized_response": "No problem at all! I'll check back with you in a few weeks. In the meantime, if you'd like a free digital audit of your current site to see what leads you might be missing, just let me know. No obligation."
+  },
+  {
+    "category": "objection",
+    "input_pattern": "do you have examples",
+    "optimized_response": "We build custom funnels for local pros across plumbing, HVAC, electrical, roofing, landscaping, and real estate. Our clients typically see their first lead within days of going live. Since every funnel is custom-built for your business, your results will be unique too. Ready to launch yours? https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "how long does it take",
+    "optimized_response": "We can have your custom, high-end lead capture funnel built and live within 24-48 hours of signup. It is fully automated on our end. Get started with our 3-Month Bundle: https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  },
+  {
+    "category": "objection",
+    "input_pattern": "can I cancel anytime",
+    "optimized_response": "Yes, absolutely — there are no contracts and no lock-ins. You can cancel your hosting at any time. Get started with our 3-Month Setup & Hosting Bundle here: https://buy.stripe.com/5kQfZg27zbht9w815VdQQ04"
+  }
+]

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin, TX HVAC Pros | HVAC Specialists</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0284c7;
+            --primary-color-hover: #1d4ed8;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        body {
+            background-color: #0c0c14;
+            color: #b0b0c8;
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-primary-gradient {
+            background: linear-gradient(to right, var(--primary-color), var(--primary-color-hover));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col overflow-x-hidden">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#0c0c14]/80 backdrop-blur-md border-b border-gray-900">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl font-black text-white tracking-tight">Austin, TX HVAC Pros</span>
+                <span class="px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full text-white bg-[var(--primary-color)]/20 border border-[var(--primary-color)]/30">HVAC</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#services" class="text-sm font-semibold text-gray-300 hover:text-white transition">Services</a>
+                <a href="#about" class="text-sm font-semibold text-gray-300 hover:text-white transition">About Us</a>
+                <a href="#reviews" class="text-sm font-semibold text-gray-300 hover:text-white transition">Reviews</a>
+                <a href="#contact" class="px-5 py-2.5 rounded-full text-sm font-bold text-white bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] hover:opacity-90 transition">Contact Now</a>
+            </nav>
+            <button id="menu-btn" class="md:hidden text-white hover:text-gray-400 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full bg-[#0c0c14] border-b border-gray-900 px-6 py-8 space-y-4">
+            <a href="#services" class="block text-lg font-semibold text-gray-300 hover:text-white transition">Services</a>
+            <a href="#about" class="block text-lg font-semibold text-gray-300 hover:text-white transition">About Us</a>
+            <a href="#reviews" class="block text-lg font-semibold text-gray-300 hover:text-white transition">Reviews</a>
+            <a href="#contact" class="block w-full text-center px-5 py-3 rounded-full font-bold text-white bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] transition">Contact Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-44 pb-32 px-6 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-[var(--primary-color)]/5 via-transparent to-transparent pointer-events-none"></div>
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-8">
+                Smart Climate Control Solutions for Year-Round Comfort
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed mb-10">
+                Certified heating and air conditioning professionals offering prompt system repairs, maintenance, and expert installations.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-full font-bold text-white bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] hover:opacity-90 transition text-center shadow-lg shadow-[var(--primary-color)]/20">
+                    Get a Free Quote
+                </a>
+                <a href="#services" class="w-full sm:w-auto px-8 py-4 rounded-full font-bold text-gray-300 border border-gray-800 hover:bg-gray-900 transition text-center">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-24 px-6 bg-[#0a0a10]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-[var(--primary-color)]">Core Capabilities</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3 mb-4">Elite Services Tailored For You</h2>
+                <p class="text-gray-400">Discover how our targeted industry expertise translates into absolute reliability and unparalleled quality on every project.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+        <div class="bg-[#171725] border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition duration-300 transform hover:-translate-y-1">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] shadow-lg shadow-[var(--primary-color)]/20 mb-6">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18M3 12h18M12 9l3 3-3 3M12 15l-3-3 3-3"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">AC Installation</h3>
+          <p class="text-gray-400 leading-relaxed">High-efficiency cooling systems designed for your home size and family comfort needs.</p>
+        </div>
+        
+        <div class="bg-[#171725] border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition duration-300 transform hover:-translate-y-1">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] shadow-lg shadow-[var(--primary-color)]/20 mb-6">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Heating Repair</h3>
+          <p class="text-gray-400 leading-relaxed">Comprehensive furnace diagnostics, carbon monoxide checks, and rapid heat restorations.</p>
+        </div>
+        
+        <div class="bg-[#171725] border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition duration-300 transform hover:-translate-y-1">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] shadow-lg shadow-[var(--primary-color)]/20 mb-6">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 16.58A5 5 0 0018 7h-1.26A8 8 0 104 15.25"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Air Quality Solutions</h3>
+          <p class="text-gray-400 leading-relaxed">Advanced filtration upgrades, air duct sanitizations, and whole-home humidity controls.</p>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-[var(--primary-color)]">Who We Are</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3 mb-6">Committed to Outstanding Local Quality</h2>
+                <p class="text-gray-400 leading-relaxed mb-6">
+                    Austin premium heating and cooling experts. We specialize in fast repairs, professional installations, and 24/7 emergency service. Our licensed technicians guarantee comfort and peace of mind.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span class="font-semibold text-white">Licensed, Bonded, and Highly Insured</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span class="font-semibold text-white">Locally Owned & Operated Enterprise</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span class="font-semibold text-white">Absolute Customer Satisfaction Guarantee</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-tr from-[#171725] to-[#12121e] border border-gray-800 rounded-3xl p-10 flex flex-col justify-center min-h-[350px]">
+                <div class="absolute inset-0 bg-gradient-to-tr from-[var(--primary-color)]/5 to-transparent pointer-events-none rounded-3xl"></div>
+                <h3 class="text-2xl font-bold text-white mb-4">Need Quick Assistance?</h3>
+                <p class="text-gray-400 mb-8 leading-relaxed">Reach out directly to speak with an on-duty local advisor and get clear answers to your key questions immediately.</p>
+                <a href="#contact" class="inline-flex items-center justify-center px-6 py-4 rounded-full font-bold text-white bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] max-w-[220px]">
+                    Schedule Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Grid -->
+    <section id="reviews" class="py-24 px-6 bg-[#0a0a10]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-[var(--primary-color)]">Verified Feedback</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3 mb-4">What Our Clients Are Saying</h2>
+                <p class="text-gray-400">Read verified success stories directly from homeowners and business managers inside our local service area.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+        <div class="bg-[#171725] border border-gray-800 rounded-2xl p-8 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center space-x-1 mb-5">
+              <svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+            </div>
+            <p class="text-gray-300 italic leading-relaxed mb-6">"Our air conditioner broke during a 100-degree weekend. They responded instantly and had it cooling again in no time."</p>
+          </div>
+          <div class="flex items-center space-x-4 pt-4 border-t border-gray-800/60">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] flex items-center justify-center font-bold text-white text-sm">
+              SH
+            </div>
+            <div>
+              <h4 class="font-bold text-white text-sm">Sandra H.</h4>
+              <p class="text-xs text-gray-500">Homeowner</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-[#171725] border border-gray-800 rounded-2xl p-8 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center space-x-1 mb-5">
+              <svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg><svg class="w-5 h-5 text-amber-500 fill-amber-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+            </div>
+            <p class="text-gray-300 italic leading-relaxed mb-6">"Fair pricing, no high-pressure sales tactics, and outstanding professional system installation."</p>
+          </div>
+          <div class="flex items-center space-x-4 pt-4 border-t border-gray-800/60">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] flex items-center justify-center font-bold text-white text-sm">
+              KB
+            </div>
+            <div>
+              <h4 class="font-bold text-white text-sm">Kevin B.</h4>
+              <p class="text-xs text-gray-500">Business Owner</p>
+            </div>
+          </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture Form Section -->
+    <section id="contact" class="py-24 px-6 relative">
+        <div class="absolute inset-0 bg-gradient-to-t from-[var(--primary-color)]/5 via-transparent to-transparent pointer-events-none"></div>
+        <div class="max-w-4xl mx-auto bg-[#12121e] border border-gray-800 rounded-3xl p-8 sm:p-12 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <h2 class="text-3xl font-extrabold text-white mb-3">Request a Premium Quote</h2>
+                <p class="text-gray-400">Fill out this quick 30-second form and our scheduling advisor will follow up with you in under 15 minutes.</p>
+            </div>
+            
+            <form id="lead-form" class="space-y-6">
+                <input type="hidden" name="lead_id" value="2">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Your Name</label>
+                        <input type="text" name="name" required class="w-full bg-[#171725] border border-gray-800 focus:border-[var(--primary-color)] rounded-xl px-4 py-3.5 text-white placeholder-gray-600 focus:outline-none transition" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Phone Number</label>
+                        <input type="tel" name="phone" required class="w-full bg-[#171725] border border-gray-800 focus:border-[var(--primary-color)] rounded-xl px-4 py-3.5 text-white placeholder-gray-600 focus:outline-none transition" placeholder="(555) 000-0000">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Email Address</label>
+                    <input type="email" name="email" required class="w-full bg-[#171725] border border-gray-800 focus:border-[var(--primary-color)] rounded-xl px-4 py-3.5 text-white placeholder-gray-600 focus:outline-none transition" placeholder="john@example.com">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Project/Service Details</label>
+                    <textarea name="message" rows="4" required class="w-full bg-[#171725] border border-gray-800 focus:border-[var(--primary-color)] rounded-xl px-4 py-3.5 text-white placeholder-gray-600 focus:outline-none transition" placeholder="Please describe the plumbing or digital assistance you need..."></textarea>
+                </div>
+                <button type="submit" class="w-full py-4 rounded-xl font-bold text-white bg-gradient-to-tr from-[var(--primary-color)] to-[var(--primary-color-hover)] hover:opacity-90 transition shadow-lg shadow-[var(--primary-color)]/20">
+                    Submit Secure Request
+                </button>
+            </form>
+
+            <div id="form-success" class="hidden text-center py-8">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-500 mb-6">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-2">Request Submitted Successfully!</h3>
+                <p class="text-gray-400 max-w-md mx-auto">Thank you for choosing us. Our scheduling advisor has been notified and will contact you in under 15 minutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-auto border-t border-gray-900 bg-[#07070b] py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center space-x-3">
+                <span class="text-xl font-black text-white tracking-tight">Austin, TX HVAC Pros</span>
+                <span class="text-xs text-gray-600">|</span>
+                <p class="text-xs text-gray-500">&copy; 2026 Austin, TX HVAC Pros. All rights reserved.</p>
+            </div>
+            <div class="flex space-x-8 text-xs text-gray-500">
+                <a href="#services" class="hover:text-white transition">Services</a>
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#reviews" class="hover:text-white transition">Reviews</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close Mobile Menu on Click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Form Submit AJAX Handler
+        const form = document.getElementById('lead-form');
+        const successBox = document.getElementById('form-success');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            try {
+                const response = await fetch('/api/leads/capture', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                if (response.ok) {
+                    form.classList.add('hidden');
+                    successBox.classList.remove('hidden');
+                } else {
+                    alert('Submission failed. Please try again.');
+                }
+            } catch (err) {
+                console.error(err);
+                alert('A system error occurred. Please try again.');
+            }
+        });
+    </script>
+</body>
+</html>
+      
